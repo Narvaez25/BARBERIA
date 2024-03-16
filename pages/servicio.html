@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios | Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <img class="logo" src="/img/Logo-barberia.png" alt="" />
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/img/menu.png" class="menu-icono" alt="" />
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicio.html">Servicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="min-height: 100vh;">
+        <div class="services-txt">
+            <h2>Nuestros servicios</h2>
+            <hr />
+            <p>
+                En Barbershop Nica, ofrecemos una amplia gama de servicios diseñados para satisfacer todas tus necesidades de cuidado personal. Nuestros talentosos barberos están aquí para brindarte una experiencia de primera clase y ayudarte a lucir tu mejor versión.
+            </p>
+        </div>
+
+        <div class="services-group">
+            <div class="services-1">
+                <img src="../img/i1.svg" alt="" />
+                <h3>A domicilio</h3>
+                <p>
+                    Hemos creado un servicio conveniente que te permite obtener un corte de cabello o afeitado profesional sin tener que salir de casa.
+                </p>
+                <a href="#">Saber más</a>
+            </div>
+
+            <div class="services-1">
+                <img src="../img/i2.svg" alt="" />
+                <h3>Corte</h3>
+                <p>
+                    Desde cortes clásicos hasta tendencias modernas, nuestros barberos dominan una variedad de estilos para adaptarse a tu personalidad y preferencias.
+                </p>
+                <a href="#">Saber más</a>
+            </div>
+
+            <div class="services-1">
+                <img src="../img/i3.svg" alt="" />
+                <h3>Barba</h3>
+                <p>
+                    Sea cual sea tu estilo de barba, nuestros barberos están capacitados para esculpir y dar forma a tu barba para resaltar tu mejor aspecto.
+                </p>
+                <a href="#">Saber más</a>
+            </div>
+        </div>
+        <a href="#" class="btn-1">Información</a>
+    </main>
+
+    <footer>
+        <div class="footer-bg">
+            <h2>Reserva una cita</h2>
+
+            <form action="https://formspree.io/f/mgegzbae" method="POST">
+                <div class="campo-1">
+                    <input class="campo" type="text" name="name" id="name" placeholder="Nombre" required />
+                    <input class="campo" type="number" name="phone" id="phone" placeholder="Teléfono" required />
+                </div>
+
+                <div class="campo-1">
+                    <input class="campo" type="text" placeholder="Dirección" required />
+                    <input class="campo" type="email" name="email" id="email" placeholder="Correo" required />
+                </div>
+                <textarea class="campo" cols="30" rows="10" placeholder="Mensaje" name="Mensaje" required></textarea>
+                <input type="submit" value="Enviar" class="btn-1" />
+            </form>
+        </div>
+
+        <div class="footer-txt">
+            <p>
+                Copyright &copy 2024 Barbershop Nica - Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

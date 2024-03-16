@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Barbershop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu container">
+            <img class="logo" src="/img/Logo-barberia.png" alt="" />
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/img/menu.png" class="menu-icono" alt="" />
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="servicio.html">Servicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="producto" style="min-height: 100vh;">
+        <section class="prices">
+            <div class="prices-1">
+                <h2>Lista de precios</h2>
+                <p>
+                    En Barbershop Nica, nos enorgullecemos de ofrecer servicios de alta calidad a precios accesibles. Creemos que lucir bien no debería romper el banco. A continuación, te presentamos nuestra lista de precios:
+                </p>
+    
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>A domicilio</th>
+                            <td>C$900</td>
+                        </tr>
+    
+                        <tr>
+                            <th>Corte</th>
+                            <td>C$450</td>
+                        </tr>
+    
+                        <tr>
+                            <th>Barba</th>
+                            <td>C$300</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#" class="btn-1">Información</a>
+            </div>
+    
+            <div class="prices-2"></div>
+        </section>
+    
+        <section class="personal container">
+            <div class="personal-txt">
+                <h2>Nuestros estilistas</h2>
+                <hr />
+                <p>
+                    Nos enorgullece contar con un equipo de estilistas excepcionales que son verdaderos maestros en su oficio. Cada uno de nuestros estilistas no solo está altamente calificado y experimentado, sino que también está dedicado a proporcionarte una experiencia
+                    de barbería excepcional que se adapte a tus necesidades y preferencias individuales.
+                </p>
+            </div>
+    
+            <div class="personal-group">
+                <div class="personal-1">
+                    <img src="/img/b1.jpg" alt="" />
+                    <h3>Miguel García</h3>
+                    <p>
+                        Con años de experiencia y un enfoque centrado en el cliente, Miguel es conocido por su profesionalismo y su habilidad para crear un ambiente acogedor y relajado para todos sus clientes.
+                    </p>
+                    <a href="#">Saber más</a>
+                </div>
+    
+                <div class="personal-1">
+                    <img src="/img/b2.jpg" alt="" />
+                    <h3>Javier Rodríguez</h3>
+                    <p>
+                        Reconocido por su atención meticulosa a los detalles, Javier es experto en diseño de barba y cortes de cabello clásicos que realzan la masculinidad de cada cliente.
+                    </p>
+                    <a href="#">Saber más</a>
+                </div>
+    
+                <div class="personal-1">
+                    <img src="/img/b3.jpg" alt="" />
+                    <h3>Carlos Sánchez</h3>
+                    <p>
+                        Con una pasión por la barbería que se refleja en cada corte y afeitado, Carlos combina la técnica tradicional con las tendencias modernas para brindarte un look fresco.
+                    </p>
+                    <a href="#">Saber más</a>
+                </div>
+            </div>
+    
+            <a href="#" class="btn-1">Información</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-bg">
+            <h2>Reserva una cita</h2>
+
+            <form action="https://formspree.io/f/mgegzbae" method="POST">
+                <div class="campo-1">
+                    <input class="campo" type="text" name="name" id="name" placeholder="Nombre" required />
+                    <input class="campo" type="number" name="phone" id="phone" placeholder="Teléfono" required />
+                </div>
+
+                <div class="campo-1">
+                    <input class="campo" type="text" placeholder="Dirección" required />
+                    <input class="campo" type="email" name="email" id="email" placeholder="Correo" required />
+                </div>
+                <textarea class="campo" cols="30" rows="10" placeholder="Mensaje" name="Mensaje" required></textarea>
+                <input type="submit" value="Enviar" class="btn-1" />
+            </form>
+        </div>
+
+        <div class="footer-txt">
+            <p>
+                Copyright &copy 2024 Barbershop Nica - Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
